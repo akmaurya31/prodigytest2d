@@ -586,7 +586,8 @@ console.log("res last line 969");
       perpetual_flag:req.body.perpetual_flag,
       instrm_date:req.body.instrm_date,
       rtgs_code:req.body.rtgs_code,
-      umrn:req.body.umrn
+      umrn:req.body.umrn,
+      folio:req.body.folio
     }
    // return;
    Customer.purchase_normal(postarray.email,(err, data) => {
@@ -679,7 +680,7 @@ console.log("res last line 969");
         },
         childtrans: { 
         amc: postarray.amc,
-        folio: [],
+         folio: postarray.folio,
         product_code: postarray.product_code,
         ft_acc_no: [],
         reinvest: postarray.reinvest,
