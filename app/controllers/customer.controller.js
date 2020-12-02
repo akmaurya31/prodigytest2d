@@ -669,7 +669,7 @@ console.log("res last line 969");
         password:'Account@2121',
         broker_code:'ARN-21399',
         iin:urs.iin,
-        sub_trxn_type:'S',
+        sub_trxn_type:'N',
         poa: 'N',
         poa_bank_trxn_type: [],
         trxn_acceptance:postarray.trxn_acceptance,
